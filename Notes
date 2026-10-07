@@ -1,0 +1,188 @@
+Here are the Notes without the questions. Below under the gap will be the questions with the notes. 
+
+
+
+
+
+Binary and number systems
+* Binary uses base 2.
+* 1011 is greater than 1001 (11 vs 9 in decimal).
+* Four binary digits are a nibble.
+* 1111 in binary equals 15 in decimal.
+* The rightmost binary digit has place value 1 (2⁰).
+* 111 in binary equals 7 in decimal. (The original note did not say which decimal number it referred to.)
+
+
+Linux and the CLI
+* A device driver translates communication between the OS and hardware peripherals.
+* cat prints file contents.
+* chown changes file ownership.
+* tail views the end of a file, often logs (tail -f follows new lines).
+* The CLI is flexible because the same task can often be done in more than one way.
+* Sharing terminal output is used as proof of work.
+
+
+Security policy and controls
+* An AUP (Acceptable Use Policy) is an agreement that sets rules for using an organization’s technology.
+* Subnetting can improve security by limiting which groups of devices can reach each other.
+* CCTV recording a server room is a detective control.
+* The AAA framework (Authentication, Authorization, Accounting) is basic to access control: confirm identity, grant only allowed access, and log activity.
+
+
+Cryptography
+* Ciphertext is encrypted data.
+* A substitution cipher replaces each letter according to a rule.
+* The Caesar cipher uses one fixed shift of the alphabet.
+* The Vigenère cipher is a polyalphabetic cipher that uses a keyword to shift letters differently through the message.
+* Asymmetric encryption uses a public/private key pair.
+* Hashing is used to verify data integrity (also for password storage and file identification).
+* Base64 is used to encode data, not to encrypt it.
+* Checking a hex dump can reveal hidden strings.
+* GPS coordinates in a photo are often stored in EXIF metadata (not “exit” metadata).
+
+
+Networking
+* Unencrypted HTTP uses port 80.
+* HTTPS uses port 443.
+* Topology is the layout or design of a network.
+* OSI Layer 6 (Presentation) handles encryption, compression, and formatting.
+* OSI Layer 7 (Application) interacts directly with end-user software.
+
+
+Threats, ATT&CK, and the kill chain
+* Hash and IP detections are relatively easy to evade. Behavioral detections based on TTPs (MITRE ATT&CK) are harder to evade.
+* In MITRE ATT&CK, a tactic is the operational goal the adversary is trying to achieve. A technique is how they do it.
+* A rootkit hides malware or an attacker’s presence on a system.
+* A dictionary attack tries a list of likely words and common phrases.
+* Actions on Objectives is the kill-chain stage where the attacker steals, changes, or destroys data (or otherwise completes the goal).
+* Clear kill-chain steps help defenders see where they can detect or stop an attack.
+
+
+
+
+
+
+
+QUESTIONS + ANSWERS
+What number base is used in binary?
+2
+
+Which number is greater in binary, 1011 or 1001?
+1011
+
+Term for 4 binary digits?
+Nibble
+
+1111 in binary equals what in decimal?
+15
+
+Decimal place value of the rightmost digit in binary?
+1
+
+Binary equivalent of decimal 7?
+111
+
+Linux and the CLI
+
+Primary function of a device driver?
+Translating communication between the OS and hardware peripherals
+
+Command that shows file content?
+cat
+
+What does chown do?
+Changes file ownership
+
+Which command helps view logs?
+tail
+
+How does the CLI show flexibility?
+It can solve the same task in many ways
+
+Why share terminal output?
+It shows proof of work
+
+Security policy and controls
+
+An AUP is what?
+An agreement outlining rules and behavior for an organization’s technology (Acceptable Use Policy)
+
+How does subnetting enhance network security?
+It limits access to specific groups of devices
+
+CCTV camera recording video footage of a server room represents which function of a security control?
+Detective
+
+Why is the AAA framework considered fundamental to access control and governance?
+It confirms a user’s identity, grants only authorized access, and leaves an activity log (Authentication, Authorization, Accounting)
+
+Cryptography
+
+Which cipher uses a fixed shift in the alphabet to encode messages?
+Caesar cipher
+
+Ciphertext is what?
+Encrypted data
+
+Which type of encryption uses a public/private key pair?
+Asymmetric encryption
+
+Substitution cipher?
+Replaces each letter with another based on a system
+
+Example of a polyalphabetic cipher?
+Vigenère cipher
+
+Which cipher uses a keyword to shift letters multiple times throughout a message?
+Vigenère cipher
+
+Why check hex for clues?
+It can show hidden strings
+
+GPS coordinates in a photo come from what?
+EXIF metadata
+
+What is hashing used for?
+Verifying data integrity
+
+What is Base64 used for?
+Encoding data (not encryption)
+
+Networking
+
+Which port is used by unencrypted HTTP web traffic?
+Port 80
+
+Encrypted HTTPS uses which port?
+Port 443
+
+Which OSI layer handles data encryption, compression, and formatting?
+Presentation layer (Layer 6)
+
+Topology means what?
+Network layout or design
+
+Which OSI layer directly interacts with end-user software?
+Application layer (Layer 7)
+
+Threats, ATT&CK, and the kill chain
+
+Hash/IP detections vs behavioral TTP detections (MITRE-based)?
+Hash and IP detections are easy to evade. Behavioral TTP detections are hard to evade.
+
+Which MITRE ATT&CK category describes the operational goal an adversary is trying to achieve?
+Tactic
+
+Rootkit?
+Hides malware or an attacker’s presence in a system
+
+Dictionary attack?
+Tests a list of likely words and common phrases
+
+What are Actions on Objectives?
+The stage where the attacker steals, changes, or destroys data (or otherwise completes the goal)
+
+Why should kill chain steps be clear?
+To help defend systems
+
+
